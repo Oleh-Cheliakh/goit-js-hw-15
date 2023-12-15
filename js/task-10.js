@@ -30,4 +30,6 @@ buttonCreate.addEventListener("click", (event) => {
 	createBoxes(inputElement.value);
 });
 
-buttonDestroy.addEventListener("click", destroyBoxes);
+buttonDestroy.addEventListener("click", () => {
+	destroyBoxes();
+});
